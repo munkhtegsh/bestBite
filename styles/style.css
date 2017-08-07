@@ -79,6 +79,9 @@ a {
   color:red;
 }
 
+.jumbotron h2:last-child{
+    color:orange;
+}
 .jumbotron h2 {
   color: white;
   font-size: 60px;
@@ -106,6 +109,16 @@ a {
   font-size: 18px;
   line-height: 1.33;
   color: white;
+}
+
+.banner .btn:hover{
+    background-color:orange;
+    
+}
+
+.banner .btn:visited{
+    background-color: firebrick;
+    color: darkblue;
 }
 
 /* Contributions */
@@ -146,6 +159,22 @@ a {
 .meal ul, 
 .feature ul {
   line-height: 1.4;
+}
+
+.breakfast ul li:nth-child(2n+3){
+    color:goldenrod;
+    font-weight: bold;
+}
+
+.dinner ul li:nth-child(4n+1){
+    color: green;
+    font-weight: bold;
+    
+}
+
+.dessert li:nth-child(3n){
+    color: orange;
+    font-weight: bold;
 }
 
 /* Footer */
